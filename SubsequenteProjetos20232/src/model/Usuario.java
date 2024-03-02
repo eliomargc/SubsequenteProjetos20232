@@ -4,6 +4,7 @@ public class Usuario {
     private int id;
     private String login;
     private String senha;
+    private String teste;
 
     public Usuario() {
     }
@@ -37,6 +38,5 @@ public class Usuario {
     public void setSenha(String senha) {
         this.senha = senha;
     }
-    
-    
+
 }
